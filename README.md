@@ -1,3 +1,3 @@
 # Optical-character-recognition
 
-This app get texts from pdf file and save it as excel file.
+This app gets texts from pdf file and save it as excel file.
