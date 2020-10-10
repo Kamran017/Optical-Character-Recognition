@@ -1,0 +1,10 @@
+Download tesseract app and show exe location in code.
+
+Libraries:
+ 1.opencv
+ 2.numpy
+ 3.pytesseract
+ 4.PIL
+ 5.pdf2image 
+ 6.pandas
+
