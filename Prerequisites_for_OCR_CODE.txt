@@ -1,5 +1,3 @@
-Prerequisites for OCR_CODE.py:
-
 Download tesseract app and show exe location in code.
 
 Libraries:
