@@ -6,10 +6,10 @@ from pdf2image import convert_from_path
 import pandas as pd
  
 #download tesseract exe and import it 
-pytesseract.pytesseract.tesseract_cmd = r"D:/Yeni klasör/tesseract.exe"
+ pytesseract.pytesseract.tesseract_cmd = r"LOCATION OF TESSERACT EXE FILE"
 
 #path of pdf file
-path = "C:/Users/balay/OneDrive/Masaüstü/tasacion 783.pdf"
+path = "PATH OF YOUR PDF FILE"
 #convert pdf pages to image format
 pages = convert_from_path(path ,500)
 
@@ -32,7 +32,7 @@ f.close()#close text file
 
 #read txt file to pandas dataframe and convert to the excel file
 df = pd.read_csv("result.txt", error_bad_lines=False,encoding='cp1252')
-df.to_excel('tasacion 783.xlsx')#convert txt file to excel file
+df.to_excel('filename.xlsx')#convert txt file to excel file
 
 
     
