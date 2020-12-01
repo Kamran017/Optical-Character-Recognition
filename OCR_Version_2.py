@@ -5,10 +5,10 @@ import glob
 import csv
 from xlsxwriter.workbook import Workbook
 
-df = tabula.read_pdf(r"C:/Users/balay/OneDrive/Masaüstü/OCR/tasacion 040.pdf", 
+df = tabula.read_pdf(r"LOCATION OF PDF FILE FOR READING", 
                      pages='all')
-tabula.convert_into(r"C:/Users/balay/OneDrive/Masaüstü/OCR/tasacion 040.pdf", 
-                    r"C:/Users/balay/OneDrive/Masaüstü/OCR/tasacion 040.csv" , 
+tabula.convert_into(r"LOCATION OF PDF FILE FOR CONVERTING", 
+                    r"LOCATION OF CSV FILE FOR SAVING" , 
                     output_format="csv",pages='all', stream=True)
 
 
